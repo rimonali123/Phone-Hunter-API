@@ -24,9 +24,15 @@
 
 <body>
     <header>
-
+        <h1>phone hunter</h1>
     </header>
-    <main>
+    <main class="container mx-auto mt-8">
+        <!-- search field here -->
+        <div class="flex gap-5">
+            <input id="input-field" type="text" placeholder="Type here" class="input input-ghost w-full border border-gray-100" />
+            <button onclick="handSearch()" class="btn btn-accent">Search here</button>
+        </div>
+        <!-- phone container -->
         <section>
             <div id="phone-container" class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                
